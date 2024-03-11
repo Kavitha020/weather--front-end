@@ -1,0 +1,76 @@
+.addForm,.updateform-container{
+  display:flex;
+flex-direction:column;
+max-width: 500px;
+margin: 20px auto;
+gap: 20px;
+
+}
+
+.movie-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 20px;
+}
+
+.add{
+  margin: 0px;
+  background-image:url("https://media.istockphoto.com/id/1476189983/photo/summer-rain-raindrops-bad-weather-depression.webp?b=1&s=170667a&w=0&k=20&c=pD_fkxyEOROx1zXxuABfciV7cAKpxrb5JWB63VDM4Rw=");
+background-repeat: no-repeat;
+min-width: 100%;
+min-height: 100vh;
+background-size: cover;
+
+
+   background-position: center center;
+}
+.get-list{
+  margin: 0px;
+  background-image:url("https://wallpapers.com/images/hd/cloudy-weather-with-palm-tree-c4pzuybo1zlqcydt.jpg");
+background-repeat: no-repeat;
+min-width: 100%;
+min-height: 100vh;
+background-size: cover;
+
+
+   background-position: center center;
+}
+
+.container{
+  display: flex;
+  margin: 50px;
+  gap: 50px;
+}
+
+.button{
+  display: flex;
+justify-content:space-around;
+  gap: 50px;
+}
+
+.single-container{
+  display: flex;
+  max-width: 70%;
+  margin: 50px auto;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.single-img{
+  max-width:40%;
+ max-height: 50%;
+margin: 0px auto;
+}
+
+.card-name{
+  text-align: center;
+  margin: 0px;
+}
+
+.home-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
